@@ -7,12 +7,24 @@
     <title>MotoGP - Pilotos del campetonato del munto de MotoGP"</title>  
     
     <style>
+        aside {
+            display: flex; /* Usamos flexbox para alinear el piloto y el aside */
+            justify-content:space-around; /* Distribuye espacio entre piloto y aside */
+            margin-bottom: 60px; /* Separación entre cada piloto */
+            padding: 10px;
+            border: 5px solid #ccc;
+            border-radius: 50px;
+            font-size: x-large;
+        }
     </style>
 
 </head>
 <body>
     <header>
         <h1>Pilotos del mundial de MotoGP</h1>
+        <nav id="Identificacion">
+            <a href="null">Registrar</a> | <a href="null">Entrar</a> 
+        </nav>
         <nav>
             <ul>
                 <li>
@@ -22,18 +34,15 @@
                     <a href="#motogp">MotoGP</a>
                 </li>
                 <li>
-                    <a href="null">Moto2</a>
+                    <a href="#Jorge_Martin">Líder actual del campeonato</a>
                 </li>
                 <li>
-                    <a href="null">Moto3</a>
+                    <a href="#Marc_marquez">Piloto con más títulos</a>
                 </li>
                 <li>
-                    <a href="null">MotoE</a>
+                    <a href="#votación">Votación</a>
                 </li>
             </ul>
-        </nav>
-        <nav id="Identificacion">
-            <a href="null">Registrar</a>|<a href="null">Entrar</a> 
         </nav>
 
     </header>
@@ -56,13 +65,13 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=400&width=600" alt="Previsualización del piloto Pecco Bagnaia" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 36</p>
+                        <p>Podios: 70</p>
+                        <p>Títulos: 3</p>
+                    </aside>
             </ul>
-            <!--aside style="border-left: 15px;">
-                <h3>Estadísticas:</h3>
-                <p><b>Victorias:</b> 11</p>
-                <p><b>Podios:</b> 12</p>
-                <p><b>Títulos:</b> </p>
-            </aside-->
         </div>
         <div id="Bastianini">
             <ul>
@@ -74,6 +83,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/ca002749-a487-432f-879e-e44969678daa/rider-bio_eneabastianini.png?height=400&width=600" alt="Previsualización del piloto Enea Bastianini" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 13</p>
+                        <p>Podios: 49</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Maverick">
@@ -86,6 +101,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/5cc9bb88-4d65-4498-9808-f36bde7936f1/rider-bio_maverickvin-ales.png?height=600&width=800" alt="Previsualización del piloto Maverick Viñales" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 26</p>
+                        <p>Podios: 75</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Aleix">
@@ -98,6 +119,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3d370545-be6a-429f-a8f6-0c8c571a5f98/rider-bio_aleixespargaro.png?height=400&width=600" alt="Previsualización del piloto Aleix Espargaró" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 3</p>
+                        <p>Podios: 12</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Augusto_Fernandez">
@@ -110,6 +137,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/ca63d1a8-f726-4e7b-85ab-708328c03aed/rider-bio_augustofernandez.png?height=400&width=600" alt="Previsualización del piloto Augusto Fernandez" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 7</p>
+                        <p>Podios: 20</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Acosta">
@@ -122,6 +155,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/e55a04e0-8d1f-4041-982b-b913f1296866/Jo8FzsJQ.png?height=400&width=600" alt="Previsualización del piloto Pedro Acosta" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 16</p>
+                        <p>Podios: 31</p>
+                        <p>Títulos: 2</p>
+                    </aside>
             </ul>
         </div>
         <div id="Miller">
@@ -134,6 +173,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/f1fa7ffe-e8f3-479a-8282-4df3b2684e67/rider-bio_jackmiller.png?height=400&width=600" alt="Previsualización del piloto Jack Miller" height="300" >
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 10</p>
+                        <p>Podios: 33</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Binder">
@@ -146,6 +191,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/664d8e67-65b0-4196-9cc0-47fb5f64efa3/rider-bio_bradbinder.png?height=400&width=600" alt="Previsualización del piloto Brad Binder" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 17</p>
+                        <p>Podios: 46</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Marc_marquez">
@@ -158,6 +209,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/986b0e12-1db0-49d8-ae13-fd556286237a/93_Marc_MarquezFullbodyGresini.png?height=400&width=600" alt="Previsualización del piloto Marc Marquez" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 87</p>
+                        <p>Podios: 148</p>
+                        <p>Títulos: 8</p>
+                    </aside>
             </ul>
         </div>
         <div id="Alex_marquez">
@@ -170,6 +227,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/2c1e0ebb-a3b6-4add-9378-8d5797e593c8/rider-bio_alexmarquez.png?height=400&width=600" alt="Previsualización del piloto Alex Marquez" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 43</p>
+                        <p>Podios: 12</p>
+                        <p>Títulos: 2</p>
+                    </aside>
             </ul>
         </div>
         <div id="Luca_Marini">
@@ -182,6 +245,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a49cbe4-f2a9-4eb5-8e75-08b5387e6dea/rider-bio_lucamarini.png?height=400&width=600" alt="Previsualización del piloto Luca Marini" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 6</p>
+                        <p>Podios: 17</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Joan_Mir">
@@ -194,6 +263,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/c745a780-c0bc-46a0-9d6e-81a45ca2fde4/rider-bio_joanmir.png?height=400&width=600" alt="Previsualización del piloto Joan Mir" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 12</p>
+                        <p>Podios: 33</p>
+                        <p>Títulos: 2</p>
+                    </aside>
             </ul>
         </div>
         <div id="Johan_Zarco">
@@ -206,6 +281,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/804f0106-d53b-4052-bbd4-23e41f093ae6/rider-bio_johannzarco.png?height=400&width=600" alt="Previsualización del piloto Johan Zarco" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 17</p>
+                        <p>Podios: 62</p>
+                        <p>Títulos: 2</p>
+                    </aside>
             </ul>
         </div>
         <div id="Nakagami">
@@ -218,6 +299,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/08f27eee-d7f1-4e4d-a94f-f6b205d15b92/rider-bio_takaakinakagami.png?height=400&width=600" alt="Previsualización del piloto Taaka Nakagami" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 2</p>
+                        <p>Podios: 14</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Quartararo">
@@ -230,6 +317,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/80de8d72-d1b8-4b41-90b0-928467018ced/rider-bio_fabioquartararo.png?height=400&width=600" alt="Previsualización del piloto Fabio Quartararo" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 12</p>
+                        <p>Podios: 35</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Rins">
@@ -242,6 +335,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/20/1d8c150c-b9dc-4db7-b70e-37b0f28949bd/rider-bio_alexrins.png?height=400&width=600" alt="Previsualización del piloto Alex Rins" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 18</p>
+                        <p>Podios: 58</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Morbidelli">
@@ -254,6 +353,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/03/07/0185f144-d78f-4880-9d4c-1fc70aef68dd/21-Franco-Morbidelli-Official-Rider_DSC9540.png?height=400&width=600" alt="Previsualización del piloto Franco Morbidelli" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 11</p>
+                        <p>Podios: 128</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Jorge_Martin">
@@ -266,6 +371,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/03/07/2b32c79b-826b-4371-b357-3504438f4973/89-Jorge-Martin-Official-Rider_DSC9358.png?height=400&width=600" alt="Previsualización del piloto Jorge Martín" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 18</p>
+                        <p>Podios: 56</p>
+                        <p>Títulos: 1</p>
+                    </aside>
             </ul>
         </div>
         <div id="Oliveira">
@@ -278,6 +389,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/08/02/667c8748-1e0e-492f-a659-ac404321141d/88-Miguel-Oliveira-MotoGP_rider.png?height=400&width=600" alt="Previsualización del piloto Miguel Oliveira" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 17</p>
+                        <p>Podios: 41</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Raul_Fernandez">
@@ -290,6 +407,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/08/02/e1d21120-21e6-43c8-83f0-2707634800a7/25-Raul-Fernandez-MotoGPrider.png?height=400&width=600" alt="Previsualización del piloto Raul Fernandez" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 10</p>
+                        <p>Podios: 16</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Giannantonio">
@@ -302,6 +425,12 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/4088be73-b443-4648-b1e9-cf184b3bc7a3/rider-bio_fabiodigiannantonio.png?height=400&width=600" alt="Previsualización del piloto Fabio Di Giannantonio" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 4</p>
+                        <p>Podios: 24</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>
         <div id="Bezzechi">
@@ -314,24 +443,18 @@
                         <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3887ea28-9d8a-4acb-99cf-2e8f25caa5bb/rider-bio_marcobezzecchi.png?height=400&width=600" alt="Previsualización del piloto Marco Bezzechi" height="300">
                     </picture>
                     </li>
+                    <aside>
+                        <h4>Estadísticas</h4>
+                        <p>Victorias: 9</p>
+                        <p>Podios: 33</p>
+                        <p>Títulos: 0</p>
+                    </aside>
             </ul>
         </div>     
-        </section>
-        <section id="sect_2">
-
-        </section>
-        <section id="sect_3">
-
-        </section>
-        <section id="sect_E">
-
         </section>
            
         <section id="votación">
               <h2>Vota por tu piloto favorito de MotoGP</h2>
-              <form action="tu_proceso_de_envio.php" method="POST">
-                <label for="piloto">Elige tu piloto favorito:</label>
-                <br><br>
                 
                 <input type="radio" id="bagnaia" name="piloto" value="Pecco Bagnaia">
                 <label for="marquez">Pecco Bagnaia</label>
@@ -342,62 +465,62 @@
                 <input type="radio" id="maverick" name="piloto" value="Maverick Viñales">
                 <label for="mir">Maverick Viñales</label>
                 
-                <input type="radio" id="vinales" name="piloto" value="Maverick Viñales">
-                <label for="vinales">Maverick Viñales</label>
+                <input type="radio" id="Aleix_Espargaró" name="piloto" value="Aleix Espargaró">
+                <label for="vinales">Aleix Espargaró</label>
 
-                <input type="radio" id="marquez" name="piloto" value="Marc Márquez">
-                <label for="marquez">Marc Márquez</label>
+                <input type="radio" id="Augusto_Fernandez" name="piloto" value="Augusto Fernandez">
+                <label for="marquez">Augusto Fernandez</label>
         
-                <input type="radio" id="quartararo" name="piloto" value="Fabio Quartararo">
-                <label for="quartararo">Fabio Quartararo</label>
+                <input type="radio" id="Pedro_Acosta" name="piloto" value="Pedro Acosta">
+                <label for="quartararo">Pedro Acosta</label>
         
-                <input type="radio" id="mir" name="piloto" value="Joan Mir">
-                <label for="mir">Joan Mir</label>
+                <input type="radio" id="Jack_Miller" name="piloto" value="Jack Miller">
+                <label for="mir">Jack Miller</label>
                 
-                <input type="radio" id="vinales" name="piloto" value="Maverick Viñales">
-                <label for="vinales">Maverick Viñales</label>
+                <input type="radio" id="Brad_Binder" name="piloto" value="Brad Binder">
+                <label for="vinales">Brad Binder</label>
 
-                <input type="radio" id="marquez" name="piloto" value="Marc Márquez">
+                <input type="radio" id="Marc_Marquez" name="piloto" value="Marc Márquez">
                 <label for="marquez">Marc Márquez</label>
         
-                <input type="radio" id="quartararo" name="piloto" value="Fabio Quartararo">
-                <label for="quartararo">Fabio Quartararo</label>
+                <input type="radio" id="Alex_Marquez" name="piloto" value="Alex Marquez">
+                <label for="quartararo">Alex Márquez</label>
         
-                <input type="radio" id="mir" name="piloto" value="Joan Mir">
-                <label for="mir">Joan Mir</label>
+                <input type="radio" id="Luca_Marini" name="piloto" value="Luca Marini">
+                <label for="mir">Luca Marini</label>
                 
-                <input type="radio" id="vinales" name="piloto" value="Maverick Viñales">
-                <label for="vinales">Maverick Viñales</label>
+                <input type="radio" id="Joan_Mir" name="piloto" value="Joan Mir">
+                <label for="vinales">Joan Mir</label>
 
-                <input type="radio" id="marquez" name="piloto" value="Marc Márquez">
-                <label for="marquez">Marc Márquez</label>
+                <input type="radio" id="Johan_Zarco" name="piloto" value="Johan Zarco">
+                <label for="marquez">Johan Zarco</label>
         
-                <input type="radio" id="quartararo" name="piloto" value="Fabio Quartararo">
-                <label for="quartararo">Fabio Quartararo</label>
+                <input type="radio" id="Taaka_Nakagami" name="piloto" value="Taaka Nakagami">
+                <label for="quartararo">Taaka Nakagami</label>
         
-                <input type="radio" id="mir" name="piloto" value="Joan Mir">
-                <label for="mir">Joan Mir</label>
+                <input type="radio" id="Fabio_Quartararo" name="piloto" value="Fabio_Quartararo">
+                <label for="mir">Fabio Quartararo</label>
                 
-                <input type="radio" id="vinales" name="piloto" value="Maverick Viñales">
-                <label for="vinales">Maverick Viñales</label>
+                <input type="radio" id="Alex_Rins" name="piloto" value="Alex Rins">
+                <label for="vinales">Alex Rins</label>
 
-                <input type="radio" id="marquez" name="piloto" value="Marc Márquez">
-                <label for="marquez">Marc Márquez</label>
+                <input type="radio" id="Franco_Morbidelli" name="piloto" value="Franco Morbidelli">
+                <label for="marquez">Franco Morbidelli</label>
         
-                <input type="radio" id="quartararo" name="piloto" value="Fabio Quartararo">
-                <label for="quartararo">Fabio Quartararo</label>
+                <input type="radio" id="Jorge_Martín" name="piloto" value="Jorge Martín">
+                <label for="quartararo">Jorge Martín</label>
         
-                <input type="radio" id="mir" name="piloto" value="Joan Mir">
-                <label for="mir">Joan Mir</label>
+                <input type="radio" id="Miguel_Oliveira" name="piloto" value="Miguel Oliveira">
+                <label for="mir">Miguel Oliveira</label>
                 
-                <input type="radio" id="vinales" name="piloto" value="Maverick Viñales">
-                <label for="vinales">Maverick Viñales</label>
+                <input type="radio" id="Raul_Fernandez" name="piloto" value="Raul Fernandez">
+                <label for="vinales">Raul Fernandez</label>
 
-                <input type="radio" id="marquez" name="piloto" value="Marc Márquez">
-                <label for="marquez">Marc Márquez</label>
+                <input type="radio" id="Fabio_Di_Giannantonio" name="piloto" value="Fabio Di Giannantonio">
+                <label for="marquez">Fabio Di Giannantonio</label>
         
-                <input type="radio" id="quartararo" name="piloto" value="Fabio Quartararo">
-                <label for="quartararo">Fabio Quartararo</label>
+                <input type="radio" id="Marco_Bezzechi" name="piloto" value="Marco Bezzechi">
+                <label for="quartararo">Marco Bezzechi</label>
         
                 <input type="submit" value="Votar"
 
@@ -406,7 +529,24 @@
         </section>            
     </main>
     <footer>
-        
+        <div class="footer-section">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#terms">Términos y condiciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
     </footer>
 </body>
